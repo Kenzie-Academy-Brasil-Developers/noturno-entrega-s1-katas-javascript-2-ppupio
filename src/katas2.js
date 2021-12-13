@@ -38,9 +38,9 @@ console.assert(power(3, 4) === 81, 'A função power não está funcionando como
 
 // comece a criar a sua função factorial na linha abaixo
 
-function factorial(a,b) {
+function factorial(a) {
     let w=1;
-    for(let indiceF=1; indiceF<=b; indiceF++) {
+    for(let indiceF=1; indiceF<=a; indiceF++) {
         w=multiply(w,indiceF)
     }
     return w;
